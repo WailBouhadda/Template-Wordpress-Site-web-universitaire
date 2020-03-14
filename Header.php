@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EST Sidi Bennour</title>  
+  <title><?php  bloginfo('description'); ?></title>  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/style.css'?>"> 
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
-  <link rel="icon" href="../EST_SidiBennour.ico" />
+  <link rel="icon" href="<?php bloginfo('template_directory'); ?> /EST_SidiBennour.ico" />
 </head>
 <body>	
   <div class="hero-anime">
@@ -82,51 +83,16 @@
             <div class="row">
               <div class="col-12">
               <h1><span>E</span><span>S</span><span>T</span>  <span>S</span><span>i</span><span>d</span><span>i</span><span>B</span><span>e</span><span>n</span><span>n</span><span>o</span><span>u</span><span>r</span><br>
-          <p>Ecole Superieur de technologie</p>	
+          <p>Ecole Supérieur de technologie</p>	
               </div>	
             </div>		
           </div>		
         </div>
       </div>
     </div>
-    
   <!-- last /div of class="hero-anime" -->
   </div>  
-  <a href="#" class="link-to-homepage" target=”_blank”></a>
-  <br>
-
-</body>
-<script>
-(function($) { "use strict";
-
-$(function() {
-  var header = $(".start-style");
-  $(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
+  <a href="<?php echo $_SERVER['PHP_SELF']; ?>" class="link-to-homepage" target=”_blank”></a>
   
-    if (scroll >= 10) {
-      header.removeClass('start-style').addClass("scroll-on");
-    } else {
-      header.removeClass("scroll-on").addClass('start-style');
-    }
-  });
-});		
-  
-//Animation
-
-$(document).ready(function() {
-  $('body.hero-anime').removeClass('hero-anime');
-});
 
 
-$('body').on('mouseenter mouseleave','.nav-item',function(e){
-    if ($(window).width() > 750) {
-      var _d=$(e.target).closest('.nav-item');_d.addClass('show');
-      setTimeout(function(){
-      _d[_d.is(':hover')?'addClass':'removeClass']('show');
-      },1);
-    }
-});	
-})(jQuery); 
-</script>
-</html>
