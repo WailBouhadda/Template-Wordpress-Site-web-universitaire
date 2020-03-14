@@ -66,7 +66,7 @@
                     <a class="nav-link" href="#">Telechargement</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=baddi.y@ucd.ac.ma">Contact</a>
                   </li>
                 </ul>
               </div>
