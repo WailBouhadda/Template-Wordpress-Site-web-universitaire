@@ -494,3 +494,9 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*footer 
 ===============================================================*/
+.Footer{
+	font-family: 'Poppins', sans-serif;              
+	font-weight: bold;
+	background-repeat: no-repeat;
+	background-size: auto;
+  }
