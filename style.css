@@ -34,3 +34,18 @@ Description: template wordpress of university
   border-radius: 50%;
   box-shadow: 0 0 0 20px rgba(12,12,12,.1);
 }
+.side_bar{
+ 
+  text-align: center;
+      width: 30%;
+      height: 100%;
+   	box-shadow: 0 0 18px 9px black;
+   	float: left;
+}
+
+.form_control{
+  width: 70%  ;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
