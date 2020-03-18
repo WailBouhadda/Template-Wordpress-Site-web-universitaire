@@ -1,41 +1,18 @@
+<div class="div1">
 
-
-
-
-<div class="side_bar">
-
-<div class="Contact_form">
-    <form id="Contact_form" method="post" action="">
-        <input name="name" type="text" class="form_control" placeholder="Votre nom..." required><br>
-        <input name="email" type="text" class="form_control" placeholder="Votre email..." required><br>
-        <textarea name="message" class="form_control" placeholder="Message..." id="" cols="30" rows="5" required></textarea><br>
-
-        <input type="submit" class="form_control submit" value="Envoyer ." >
-    </form>
-</div>
-
-
-</div>
-    
-<?php
-$nom = $_POST['nom'];
-$visiteur_email = $_POST['email'];
-$message = $_POST['message'];
-
-$email_from = 'ESTSB.ucd.ma@gmail.com';
-$email_subject = "Contact us";
-$email_body = "User name : $name.\n".
-                "User email : $email.\n".
-                    "User message : $message.\n";
-
-
-  $to = "wailbouhadda1@gmail.com";
+	<form class="example" action="" style="margin:auto;max-width:300px">
   
-  $headers ="From : $email_from \r\n";
-  $headers .= "Replay to : $visiteur_email \r\n";
+      <input type="text" placeholder="Search.." name="search2">
+  
+        <button type="submit"><i class="fa fa-search"></i></button>
 
-  mail($to,$email_subject,$email_body,$headers);
-
-
-
-?>
+    </form>
+  <ul>
+				         	   	<li class="c1"><h5> NAVIGATION  </h5></li>
+			               	  <li><a >  Présentation</a></li>
+			               	  <li><a >  Mots de Directeur </a></li>
+			               	  <li><a >  Direction</a></li>
+			               	  <li><a>  Corps Enseignant</a></li>
+			               	  	<li><a> DUT : GI </a>
+                                     <li><a > DUT : TM </a>		
+	</div>
