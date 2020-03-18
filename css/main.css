@@ -361,4 +361,79 @@ body{
       height: 100%;
     }
     
+      .div1 {  
+       
+          margin: 285px 10px 30px 10px;
+            width: 30%;
+            height: 100%;
+           float: left;
+      
+      }
+      form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid rgb(78, 76, 76);
+        float: left;
+        width: 70%;
+        background: #f1f1f1;
+       margin-top: 20px;
+      }
+      
+      /* Style the submit button */
+      form.example button {
+          margin-top: 20px;
+        float: left;
+        width: 15%;
+        padding: 10px;
+        background: #fff;
+        color: #28a745;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+      }
+      
+      form.example button:hover {
+        background: #28a745;
+        color: #fff;
+      }
+      
+      /* Clear floats */
+      form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .div1 ul {
+        list-style-type: none;
+        margin: 12% 12% 10% 10%;
+        padding: 0;
+        height: 70%;
+        width: 70%;
+        background-color: #fff;
+      }
+      
+      .div1 li a {
+        display: block;
+        color: #28a745;
+        padding: 8px 16px;
+        text-decoration: none;
+        margin: 20px 0 0 0;
+        font-family: 'Poppins',sans-serif ;
+      }
+      
+      
+      .div1 li a:hover {
+        background-color: #28a745;
+        color: #fff;
+      }
+        .div1 ul .c1 {
+            text-align: center;
+            font-family: cursive;
+      
+        }
+.c1{
+    background-color: #28a745;
+    color: #fff;
    
+}
