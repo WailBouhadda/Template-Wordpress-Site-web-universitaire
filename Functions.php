@@ -5,6 +5,8 @@ function add_style(){
     wp_enqueue_style( 'fontawesome-css',    get_template_directory_uri()."/css/font-awesome.min.css");
     wp_enqueue_style('style_css',get_stylesheet_uri());
 }
+// estsb_menu
+
 add_action('wp_enqueue_scripts','add_style');
 
 // Theme Options
@@ -20,28 +22,17 @@ register_nav_menus(
 );
 
 
-function my_sidebars(){
-
-        register_sidebar(
-
-                array(
-                    'name' => 'page Sidebar',
-                    'id' => 'page-sidebar',
-                    'before_title' => '<h4 class="widget-title">',
-                    'after_title' => '</4>'
-                )
-                );
-                register_sidebar(
-
-                    array(
-                        'name' => 'blog Sidebar',
-                        'id' => 'blog-sidebar',
-                        'before_title' => '<h4 class="widget-title">',
-                        'after_title' => '</4>'
-                    )
-                    );
 
 
-}
-add_action('widgets_init','my_sidebars');
+    register_sidebar(
+        array(
+            'id' => 'right-sidebar',
+            'name' => 'Right Sidebar',
+            'before_widget' => '<div class="the-widget">',
+            'after_widget' => '</div>',
+            'before_title'=> '<h2>',
+            'after_title' =>'</h2>',
+        ));
+
 ?>
+
