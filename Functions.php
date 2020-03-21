@@ -1,9 +1,9 @@
 <?php
 add_theme_support('post-thumbnails');
 function add_style(){
-    wp_enqueue_style( 'bootstrap-css',    get_template_directory_uri(  )."/css/bootstrap.min.css" );
-    wp_enqueue_style( 'fontawesome-css',    get_template_directory_uri()."/css/font-awesome.min.css");
-    wp_enqueue_style('style_css',get_stylesheet_uri());
+    wp_enqueue_style( 'bootstrap-css',     get_template_directory_uri()."/css/bootstrap.min.css" );
+    wp_enqueue_style( 'fontawesome-css',   get_template_directory_uri()."/css/font-awesome.min.css");
+    wp_enqueue_style( 'style_css',         get_template_directory_uri()."/css/main.css");
 }
 // estsb_menu
 
