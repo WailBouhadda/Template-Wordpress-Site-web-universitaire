@@ -9,7 +9,6 @@
   
 </div>
 <?php get_footer(); ?>
-</body>
 
 <script type="text/javascript">
 
@@ -47,4 +46,6 @@ $('body').on('mouseenter mouseleave','.nav-item',function(e){
 
 })(jQuery); 
 </script>
+</body>
 </html>
+
