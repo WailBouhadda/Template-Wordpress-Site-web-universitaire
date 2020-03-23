@@ -1,13 +1,13 @@
 # Template-Worpdress-Website-University 
 
-## Presentation:
+## 1. Presentation:
 <ul>
 <li>University template using Wordpress</li>
 </ul>
 
-## Main Technologies:
+## 2. Main Technologies:
 
 ##### <a href="https://wordpress.org/download/">Wordpress</a>
 
-## Some Captures about this project:
+## 3. Some Captures about this project:
 
