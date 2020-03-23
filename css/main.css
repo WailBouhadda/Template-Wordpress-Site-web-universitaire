@@ -471,6 +471,9 @@ h1 span:nth-child(15){
     float: left;
     margin-left: 10px;
 }
+.contentleft .blog-info {
+    margin-left: 10px;
+}
 .contentright {
     width: 35%;
     float: right;
@@ -504,4 +507,7 @@ h1 span:nth-child(15){
 .the-widget ul li a:hover {
     color: #06b139;
     font-weight: bold;
+}
+.contentright .contentOfContent-left {
+    margin-left: 10px;
 }

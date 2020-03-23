@@ -1,12 +1,21 @@
 <?php get_header(); ?>
-
+<div class="page-content">
 <div class="contentleft">
+  <h1 style="color: #06b139">Actualité<hr></h1>
+  <div class="blog">
+  <?php if(  have_posts() ) : while( have_posts() ) : the_post();?>
+  <h3 class="title"><?php the_title();?></h3>
+  <div class="athor">Poster par <strong><em><?php the_author() ?></em></strong> le <?php the_time('dS, F, Y');?></div>
+  <h9><?php the_content();?></h9>
+  <?php endwhile; else: ?>
+    No posts found.
+  <?php endif;?>
+  </div>
 </div>
 <div class="contentright">
 <?php get_sidebar(); ?>
 </div>
-<div class="clearfix">
-  
+<div class="clearfix"></div>
 </div>
 <?php get_footer(); ?>
 
