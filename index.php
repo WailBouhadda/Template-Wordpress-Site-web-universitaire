@@ -1,14 +1,18 @@
 <?php get_header(); ?>
 
-
-
-
+<div class="contentleft">
+</div>
+<div class="contentright">
 <?php get_sidebar(); ?>
-
+</div>
+<div class="clearfix">
+  
+</div>
 <?php get_footer(); ?>
-
 </body>
+
 <script type="text/javascript">
+
 (function($) { "use strict";
 
 $(function() {
@@ -30,6 +34,8 @@ $(document).ready(function() {
   $('body.hero-anime').removeClass('hero-anime');
 });
 
+//Menu On Hover
+  
 $('body').on('mouseenter mouseleave','.nav-item',function(e){
     if ($(window).width() > 750) {
       var _d=$(e.target).closest('.nav-item');_d.addClass('show');
@@ -38,6 +44,7 @@ $('body').on('mouseenter mouseleave','.nav-item',function(e){
       },1);
     }
 });	
+
 })(jQuery); 
 </script>
 </html>
