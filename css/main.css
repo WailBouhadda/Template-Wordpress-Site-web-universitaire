@@ -490,6 +490,7 @@ h1 span:nth-child(15){
     font-weight: normal;
     font-family: fantasy;
     letter-spacing: 1px;
+    text-align: center;
 }
 .the-widget li {
     padding-top: 15px;
