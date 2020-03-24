@@ -368,7 +368,6 @@ h1 span:nth-child(15){
           content: "";
           border: none;
           background-color: #000;
-          vertical-align: 0;
       }
       .dropdown-toggle::after {
           position: absolute;
@@ -380,7 +379,6 @@ h1 span:nth-child(15){
           content: "";
           border: none;
           background-color: #000;
-          vertical-align: 0;
           transition: all 200ms linear;
       }
       .dropdown-toggle[aria-expanded="true"]::after{
@@ -511,4 +509,8 @@ h1 span:nth-child(15){
 }
 .contentright .contentOfContent-left {
     margin-left: 10px;
+}
+.search-form-404
+{
+    padding: 20px 0;
 }
