@@ -93,7 +93,7 @@
     </div>
   <!-- last /div of class="hero-anime" -->
   </div> 
-</header>
+</header><hr>
 <body>	 
   <a href="<?php echo $_SERVER['PHP_SELF']; ?>" class="link-to-homepage" target=”_blank”></a>
   
