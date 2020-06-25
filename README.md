@@ -8,6 +8,8 @@
 ## 2. Main Technologies:
 
 ##### <a href="https://wordpress.org/download/">Wordpress</a>
+##### <a href="https://www.php.net/">PHP</a>
+##### <a href="https://getbootstrap.com/docs/4.5/getting-started/download/">BOOTSTRAP</a>
 
 ## 3. Some Captures about this project:
 
