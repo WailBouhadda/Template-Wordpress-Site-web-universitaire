@@ -15,7 +15,7 @@ body{
       background-position: center;
       background-repeat: repeat;
       background-size: 7%;
-      background-color: #fff;
+      background-color: rgb(245, 245, 245);
       overflow-x: hidden;
     transition: all 200ms linear;
   }
@@ -30,8 +30,9 @@ body{
   /* #Navigation
   ================================================== */
   header {
-      background-color: #fdfcfc;
+      background-color: rgb(251, 249, 249);
   }
+
   .start-header {
       opacity: 1;
       transform: translateY(0);
@@ -60,6 +61,7 @@ body{
       -webkit-transition : all 0.3s ease-out;
       transition : all 0.3s ease-out;
   }
+
   .navbar{
       padding: 0;
   }
@@ -249,8 +251,6 @@ body{
   }
   
   
-  
-  
   /* #Media
   ================================================== */
   
@@ -331,6 +331,7 @@ body{
     .the-widget:last-of-type{
         margin-bottom: 50px;
     }
+
 }
 
 @media (max-width: 680px) {
@@ -390,8 +391,9 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 35px 0 0;
-    background-color: #fdfcfc;
+    background-color: rgb(251, 249, 249);
 }
+
 
 /* search bar */
 
@@ -432,17 +434,24 @@ ul {
 .contentleft .blog{
     background-color: #fff;
     border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.contentleft .blog .title{
+    margin-top: 50px;
+}
+
+.contentleft .blog:last-of-type{
+    margin-bottom: 150px;
 }
 
 .post_title{
     color: #fffdfd;
     border-radius: 5px;
-    margin-bottom: 0;
     background: #06b139;
     text-align: center;
-    margin-bottom: 50px;
     letter-spacing: 0.24rem;
-    padding: 5px 10px;
+    padding: 2px 10px;
     padding-left: 5px;
 }
 
@@ -451,8 +460,18 @@ ul {
 }
 
 .the-widget {
-    border-radius: 5px;
+    margin-top: 7px;
+    border-radius: 10px;
     background-color: #fff;
+}
+
+.widget_pages{
+    margin-top: 32px;
+}
+
+.widget_recent_entries
+{
+    margin-top: 32px;
 }
 
 .the-widget h2 {
@@ -466,7 +485,6 @@ ul {
     letter-spacing: 1px;
     text-align: center;
     border-radius: 3px;
-    margin-top: 10px;
 }
 .the-widget li {
     padding: 7px 10px;
@@ -489,4 +507,41 @@ ul {
 .search-form-404
 {
     padding: 20px 0;
+}
+
+/*404 page*/
+.page-content_404{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 35px 0 0;
+    background-color: #fdfcfc;
+}
+
+.page_title{
+    text-align: center;
+}
+
+.search-form-404{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* post image*/
+
+.contentleft .has-text-align-left{
+    color: #09131B;
+    margin-bottom: 50px;
+}
+
+.image{
+    text-align: center;
+}
+
+main .content{
+    
 }

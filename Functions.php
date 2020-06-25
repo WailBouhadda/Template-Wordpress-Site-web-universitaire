@@ -1,5 +1,10 @@
 <?php
+
+// Add featured image support
 add_theme_support('post-thumbnails');
+add_image_size('small-thumbnail', 400, 180, true);
+add_image_size('banner-image', 940, 310, true);
+
 
 function add_style(){
 
@@ -23,12 +28,12 @@ register_nav_menus(
 );
 
 
-
+// sidebar 
 register_sidebar(
     array(
         'id' => 'right-sidebar',
         'name' => 'Right Sidebar',
-        'before_widget' => '<div class="the-widget">',
+        'before_widget' => '<div class="the-widget %2$s">',
         'after_widget' => '</div>',
         'before_title'=> '<h2>',
         'after_title' =>'</h2>',
