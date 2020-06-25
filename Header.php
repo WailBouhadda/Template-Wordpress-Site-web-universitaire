@@ -83,7 +83,7 @@
           <div class="container">
             <div class="row">
               <div class="col-12">
-              <h1><span>E</span><span>S</span><span>T</span>  <span>S</span><span>i</span><span>d</span><span>i</span><span>B</span><span>e</span><span>n</span><span>n</span><span>o</span><span>u</span><span>r</span><br>
+              <h1><span>E</span><span>S</span><span>T</span>  <span>S</span><span>i</span><span>d</span><span>i</span> <span>B</span><span>e</span><span>n</span><span>n</span><span>o</span><span>u</span><span>r</span><br>
           <p>Ecole Supérieur de technologie</p>	
               </div>	
             </div>		
@@ -93,7 +93,7 @@
     </div>
   <!-- last /div of class="hero-anime" -->
   </div> 
-</header><hr>
+</header>
 <body>	 
   <a href="<?php echo $_SERVER['PHP_SELF']; ?>" class="link-to-homepage" target=”_blank”></a>
   

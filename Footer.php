@@ -1,8 +1,9 @@
 
-<Footer>
-        <div class="Footer">
-            <p>Powered with  ❤️ By <a href="https://github.com/WailBouhadda">Wail</a> & <a href="https://github.com/AimeneNouri">Aimene</a></p>
-            <p>&copy;<script>document.write(new Date().getFullYear());</script>, All rights are reserved for <a href="<?php bloginfo('url'); ?>" target="_blank"><?php bloginfo('name'); ?></a></p>
-        </div>       
-</Footer>
+
+<footer>
+
+<div class="wrapper-copy">
+    <p class="copy">Copyright © <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All Rights Reserved. </p>
+    <p class="copy_powered"><span class="theme-credit">Powered by <a href="https://github.com/WailBouhadda/Template-Wordpress-Site-web-universitaire"  class="footer-logo"  style="text-decoration:  none; font-size: 16px;">Wail Aimene</a></span></p>
+</footer>
 <?php wp_footer();?>
