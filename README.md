@@ -10,22 +10,22 @@
 ##### <a href="https://wordpress.org/download/">Wordpress</a>
 
 ## 3. Some Captures about this project:
-### Home Page:
 
-![screencapture-localhost-wordpress-2020-03-23-19_05_07](https://user-images.githubusercontent.com/48455549/77349346-2df8ce80-6d3b-11ea-8432-ccae7d6bbc26.png)
+![screencapture-localhost-wordpress-2020-06-25-19_04_08](https://user-images.githubusercontent.com/48455549/85777254-5d8fec00-b719-11ea-8e91-2bff29f97907.png)
+
 
 <hr>
 
-### Home Page(mobile):
+![screencapture-localhost-wordpress-2020-06-25-19_09_26](https://user-images.githubusercontent.com/48455549/85777201-523cc080-b719-11ea-898a-a9e1eaf55d4f.png)
 
-![mobileIhm2](https://user-images.githubusercontent.com/48455549/77349523-6c8e8900-6d3b-11ea-9588-cc383db6bb0f.PNG)
+<br>
 
-![mobileIhm](https://user-images.githubusercontent.com/48455549/77349554-74e6c400-6d3b-11ea-9fb3-6a5e9432c425.PNG)
+![screencapture-localhost-wordpress-2020-06-25-19_09_14](https://user-images.githubusercontent.com/48455549/85777224-57017480-b719-11ea-9123-e642f4fa5f68.png)
 <hr>
 
 ## 4. Created by:
 
-#### - Wail Bouhadda
-#### - Aimene Nouri
+#### - <a href="https://github.com/WailBouhadda">Wail Bouhadda</a>
+#### - <a href="https://github.com/AimeneNouri">Aimene Nouri</a>
 
 
