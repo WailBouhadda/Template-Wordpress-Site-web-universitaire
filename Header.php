@@ -7,13 +7,15 @@
   <title><?php  bloginfo('description'); ?></title>  
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/style.css'?>"> 
-  <link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/css/style.css'?>"> 
+  <link rel="stylesheet" href="<?php  echo get_template_directory_uri().'/css/main.css'?>"> 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
   <link rel="icon" href="<?php bloginfo('template_directory'); ?> /EST_SidiBennour.ico" />
+  <?php wp_head();?>
 </head>
 <header>
+ 
   <div class="hero-anime">
     <div class="navigation-wrap bg-light start-header start-style">
       <div class="container">
@@ -30,10 +32,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto py-4 py-md-0">
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
-                    <a class="nav-link" href="#">Acceuil</a>
+                    <a class="nav-link" href="index.php">Acceuil</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ecole</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="ecole/" role="button" aria-haspopup="true" aria-expanded="false">Ecole</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Presentation</a>
                       <a class="dropdown-item" href="#">Mots de directeur</a>
@@ -41,14 +43,14 @@
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Formations</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="formations/" role="button" aria-haspopup="true" aria-expanded="false">Formations</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Formation Initial</a>
                       <a class="dropdown-item" href="#">Formation Continue</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Espace Etudiant</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="espace-etudiant/" role="button" aria-haspopup="true" aria-expanded="false">Espace Etudiant</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Reglement Des Etudes</a>
                       <a class="dropdown-item" href="#">Planning Annuel</a>
@@ -57,17 +59,17 @@
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Recherche</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="recherche/" role="button" aria-haspopup="true" aria-expanded="false">Recherche</a>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Structure De Recherche</a>
                       <a class="dropdown-item" href="#">Centre Des Etudes Doctorals</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#">Telechargement</a>
+                    <a class="nav-link" href="telechargement/">Telechargement</a>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="contact/">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -95,7 +97,11 @@
   </div> 
 </header>
 <body>	 
-  <a href="<?php echo $_SERVER['PHP_SELF']; ?>" class="link-to-homepage" target=”_blank”></a>
+
+<a onclick="topFunction()" id="button_top" class="link-to-homepage" target=”_blank”></a>
+
+  
+
   
 
 

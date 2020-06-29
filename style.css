@@ -1,4 +1,4 @@
-/*!
+/*
 Theme Name: Template-Worpdress-Website-University
 Theme URI: https://github.com/WaIl-20/Template-Wordpress-Site-web-universitaire
 Author: Wail Bouhadda & Aimene Nouri 
@@ -8,11 +8,12 @@ Description: template wordpress of university
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
-@import url(css/style.css);
+@import url(css/main.css);
 /* #Link to page
   ================================================== */
   
-  .link-to-homepage {
+.link-to-homepage {
+  display: none;
 	position: fixed;
   bottom: 30px;
   right: 30px;
