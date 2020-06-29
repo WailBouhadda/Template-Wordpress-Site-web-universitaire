@@ -37,32 +37,32 @@
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 ">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="ecole/" role="button" aria-haspopup="true" aria-expanded="false">Ecole</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Presentation</a>
-                      <a class="dropdown-item" href="#">Mots de directeur</a>
-                      <a class="dropdown-item" href="#">Corps Enseignants</a>
+                      <a class="dropdown-item" href="Presentation">Presentation</a>
+                      <a class="dropdown-item" href="mots-de-directeur">Mots de directeur</a>
+                      <a class="dropdown-item" href="corps-enseignants">Corps Enseignants</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="formations/" role="button" aria-haspopup="true" aria-expanded="false">Formations</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Formation Initial</a>
-                      <a class="dropdown-item" href="#">Formation Continue</a>
+                      <a class="dropdown-item" href="formation-initial">Formation Initial</a>
+                      <a class="dropdown-item" href="formation-continue">Formation Continue</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="espace-etudiant/" role="button" aria-haspopup="true" aria-expanded="false">Espace Etudiant</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Reglement Des Etudes</a>
-                      <a class="dropdown-item" href="#">Planning Annuel</a>
-                      <a class="dropdown-item" href="#">Bourse</a>
-                      <a class="dropdown-item" href="#">Emploi Du Temps A.U.2019-2020</a>
+                      <a class="dropdown-item" href="reglement-des-etudes">Reglement Des Etudes</a>
+                      <a class="dropdown-item" href="planning-annuel">Planning Annuel</a>
+                      <a class="dropdown-item" href="Bourse">Bourse</a>
+                      <a class="dropdown-item" href="Emploi Du Temps A.U.2019-2020">Emploi Du Temps A.U.2019-2020</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="recherche/" role="button" aria-haspopup="true" aria-expanded="false">Recherche</a>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Structure De Recherche</a>
-                      <a class="dropdown-item" href="#">Centre Des Etudes Doctorals</a>
+                      <a class="dropdown-item" href="Structure De Recherche">Structure De Recherche</a>
+                      <a class="dropdown-item" href="Centre Des Etudes Doctorals">Centre Des Etudes Doctorals</a>
                     </div>
                   </li>
                   <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

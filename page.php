@@ -3,6 +3,7 @@
 <div class="page-content">
   <div class="contentleft">
 
+
     <h1 class="page_title"><?php the_title(); ?></h1>
 
     <div class="content" 
@@ -14,7 +15,7 @@
   </div>
   
   <div class="contentright" style="margin-top:67px;">
-  <?php get_sidebar(); ?>
+    <?php get_sidebar(); ?>
   </div>
 
 <div class="clearfix"></div>
